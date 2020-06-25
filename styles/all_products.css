@@ -1,0 +1,176 @@
+@import 'fonts.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+p,ul,span{
+    margin: 0 !important;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.button{
+    font-family: 'Proxima 400';
+    font-size: 14px;
+    line-height: 14px;
+    padding: 8px 40px;
+    border: black solid 1px;
+    color: black;
+    display: inline-block;
+}
+
+.button:hover{
+    background: #FF6700;
+    color: #fff;
+    border: none;
+}
+
+/* ==================== HEADER start ==================== */
+
+.header__top{
+    background: #000;
+}
+
+.header__top__list__item{
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: 'Proxima 400';
+    font-size: 12px;
+}
+
+.header__top__left{
+    width: 288px;
+}
+
+.header__top__right{
+    width: 130px;
+}
+
+.header__top__list__link:hover{
+    color: #fff;
+}
+
+.logo{
+    display: block;
+    width: 56px;
+    height: 56px;
+    background: url(../images/logo.png); 
+}
+
+.logo:hover{
+    background: url(../images/logo_hover.png);
+    transition: .3s  ;
+    
+}
+
+.header__center{
+    /* padding-top: 17px; */
+    height: 577px;
+    background: #BAD3E7;
+}
+
+.header__center__top{
+    padding-top: 17px;
+}
+
+.header__center_top_right{
+    width: 844px;
+}
+
+.header__nav__list a{
+    font-family: 'Proxima 600';
+    font-size: 14px;
+    line-height: 16px;
+    color: #616161;
+}
+
+.header__nav__list a:hover{
+    transform: scale(1.1);
+    color: #FF6700;
+}
+
+.header__nav__list li.active{
+    color: #FF6700;
+}
+
+
+/* ==================== HEADER end ==================== */
+
+/* ==================== MAIN start ==================== */
+
+main{
+    padding-top: 17px;
+}
+
+.breadcrumb-item{
+    font-family: 'Proxima 400';
+    font-size: 14px;
+    color: #616161;
+}
+
+.breadcrumb-item-link>a:hover{
+    color: #616161;
+}
+
+.breadcrumb-item-link:hover{
+    color: #616161;
+    transform: scale(1.1);
+}
+
+.main-all-products img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.main-all-products span{
+    font-family: 'Proxima 400';
+    font-size: 12px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#miAccordion .card-body, 
+#redmiAccordion .card-body, 
+#pocophoneAccordion .card-body,
+#miTvAccordion .card-body,
+#smartDevicesAccordion .card-body{
+    border: none;
+}
+
+
+
+.accordion-title{
+    font-family: 'Proxima 400';
+    font-size: 18px;
+    color: #FF6700;
+    margin-left: 18px !important;
+}
+
+.accordion-button{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.accordion-button .icon{
+    color: #FF6700;
+    font-size: 22px;
+    padding: 0;
+}
+
+
+/* ==================== MAIN end ==================== */

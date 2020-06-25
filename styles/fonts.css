@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'Gilroy 400';
+    src: url(../fonts/Gilroy-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Gilroy 700';
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Proxima 400';
+    src: url(../fonts/ProximaNova-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Proxima 600';
+    src: url(../fonts/ProximaNova-Semibold.ttf);
+}
